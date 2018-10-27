@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.simplesi.restserver.rest;
+package com.logos.restserver.rest;
 
 import com.fasterxml.jackson.core.Base64Variants;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -18,7 +18,7 @@ import com.google.gson.JsonParseException;
 import com.google.gson.JsonPrimitive;
 import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
-import com.simplesi.restserver.model.lazytype.LazyTypeObjectMapperEnum;
+import com.logos.restserver.model.lazytype.LazyTypeObjectMapperEnum;
 import com.xpert.core.crud.AbstractBusinessObject;
 import com.xpert.core.exception.BusinessException;
 import com.xpert.persistence.dao.BaseDAO;
